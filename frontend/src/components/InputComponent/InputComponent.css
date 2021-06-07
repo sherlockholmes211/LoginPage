@@ -1,0 +1,72 @@
+.input-form-control{
+    
+}
+
+.input-label{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Light */
+
+    color: #A5A5A5;
+    margin-bottom: 10px;
+}
+
+.input{
+    background: #F0F0F0;
+    border-radius: 5px;
+    width:clamp(330px,20vw,400px);
+    height: max(40px,2.6vh,50px);
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 1260px){
+    .flex-row{
+        display: flex;
+        flex-direction: column;
+        row-gap:5px;
+    }
+    .input-extra-side{
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 50px;
+        text-align: initial;
+        color: #333333;
+    
+    }
+}
+
+@media screen and (min-width: 1260px){
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        
+        column-gap: 10px;
+    }
+    .input-extra-side{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 50px;
+        text-align: center;
+        /* identical to box height */
+    
+        vertical-align: middle;
+        /* Dark */
+    
+        color: #333333;
+    }
+}
+
+
+

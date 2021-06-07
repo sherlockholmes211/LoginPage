@@ -1,0 +1,14 @@
+.logo-style{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    /* Primary */
+
+    color: #F7D832;
+    margin-bottom: min(100px,9vh);
+}

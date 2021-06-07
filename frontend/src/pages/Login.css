@@ -1,0 +1,164 @@
+
+@media screen and (min-width: 1260px){
+    .login-wrapper{
+        width: 100vw;
+        height: 100vh;
+        padding:6.4vh 7.2vw;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .login-component-wrapper{
+        width:57%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ilustration-wrapper{
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .yellow-bubble{
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top:0; 
+        /* margin-right: -10vw; */
+        width: calc(56vw - 0px);
+        height: max(920px,100vh - 20px);
+        z-index: -2;
+    }
+
+}
+
+@media screen and (max-width: 1260px){
+    .login-wrapper{
+        width: 100vw;
+        height: 100vh;
+        padding:6.4vh 7.2vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 100px;
+
+    }
+    .login-component-wrapper{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ilustration-wrapper{
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .yellow-bubble{
+        display: none;
+        position: absolute;
+        top:-6.4vh; 
+        margin-left: -9vw;
+        width: calc(52vw - 0px);
+        height: calc(100vh - 50px);
+        z-index: -2;
+    }
+
+}
+
+
+/* 
+.login-component-wrapper{
+    width:57%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilustration-wrapper{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bubble1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 13vw;
+}
+
+.yellow-bubble{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: calc(52vw - 0px);
+    height: calc(100vh - 50px);
+    z-index: -2;
+} */
+
+.bubble1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 13vw;
+}
+
+
+.test-button{
+    background: #F7D832;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0 max(90px,10vh)  0;
+    border:none;
+    transition: all 0.5s 0s ease;
+}
+
+.test-button:hover{
+    transition: all 0.5s 0s ease;
+    background-color: yellow;
+}
+
+.ilus-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    width: auto;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.ilus-description{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    width: 35vw;
+    margin-bottom: 5vh;
+}
+
+.ilus-svg{
+    width: 25vw;
+    /* height: 24vh; */
+    height: 40vh;
+}
